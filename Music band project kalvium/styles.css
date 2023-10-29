@@ -1,0 +1,135 @@
+body{
+    background-image: url("2000.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#wlcm{
+    height: 32vh;
+    width: 37vw;
+    position: absolute;
+    top: 0vh;
+    left: 72vh;
+    opacity: 90%;
+}
+
+#curtains{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    z-index: 2;
+    animation: slideIn 10s forwards;
+}
+
+#drum{
+    height: 63vh;
+    position: absolute;
+    top: 33vh;
+    left: 64vh;
+}
+
+#drum:hover{
+    transform: rotateX(6deg);
+    transform: rotateY(6deg);
+}
+
+#electric{
+    height: 62vh;
+    position: fixed;
+    top: 31vh;
+    left: 154vh;
+}
+#electric:hover{
+    transform: rotateX(20deg);
+    transform: rotateY(20deg);
+    transform: rotatez(10deg);
+
+}
+
+#acoustic{
+    height: 71vh;
+    position: fixed;
+    top: 27vh;
+    left: 21vh;
+}
+#acoustic:hover{
+    transform: rotateX(20deg);
+    transform: rotateY(20deg);
+    transform: rotatez(10deg);
+}
+
+#imps{
+    height: 100px;
+    width: 100px;
+    top: 59vh;
+    left: 41vw;
+    z-index: 1000;
+    position: absolute;
+}
+#bassdrum{
+    height: 27vh;
+    width: 13vw;
+    position: absolute;
+    top: 62vh;
+    left: 102vh;
+    z-index: 1000;
+    border-radius: 50%;
+}
+.cccc{
+    height: 105px;
+    width: 84px;
+    top: 47vh;
+    left: 45vw;
+    z-index: 1000;
+    position: absolute;
+}
+.pppp{
+    height: 84px;
+    width: 92px;
+    top: 49vh;
+    left: 53vw;
+    z-index: 1000;
+    position: absolute;
+}
+
+.mmmm{
+    height: 82px;
+    width: 117px;
+    z-index: 1000;
+    position: absolute;
+    top: 38vh;
+    left: 124vh;
+    border-radius: 20px;
+    border-radius: 50%;
+}
+
+.hihat{
+    height: 40px;
+    width: 106px;
+    z-index: 1000;
+    position: absolute;
+    top: 56vh;
+    left: 134vh;
+    border-radius: 50%;
+}
+.ridecymbal{
+    height: 77px;
+    width: 116px;
+    z-index: 1000;
+    position: absolute;
+    top: 39vh;
+    left: 81vh;
+    border-radius: 20px;
+    border-radius: 50%;
+}
+
+@keyframes slideIn {
+    0% {
+            transform: translateY(0);
+        }
+    100% {
+            transform: translateY(-110%);
+        }
+        }
+    
+    
